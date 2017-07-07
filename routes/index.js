@@ -7,7 +7,7 @@ var Board = mongoose.model('Board');
 var State = mongoose.model('State');
 var Achievement = mongoose.model('Achievement');
 var Mood = mongoose.model('Mood');
-var plotly = require('plotly')(process.env.PLOTLY_USERNAME || 'timduan', process.env.PLOTLY_API_KEY || 'Py5JnU0yDVpl9mi9DVrL');
+var plotly = require('plotly')(process.env.PLOTLY_USERNAME, process.env.PLOTLY_API_KEY);
 var fs = require('fs');
 
 /** Moods **/

@@ -49,6 +49,8 @@ There are several values that have hard-coded default values, but can be modifie
 | PORT                 | Port number used to connect to the express server                                                        | 3000                            | bin/www, scripts/awesome.team.coffee |
 | SLACK_TOKEN          | Token provided by slack to associate this app's hubot-based bot with a registered bot on your slack team | {xoxb-token-goes-here}          | bin/hubot-slack                      |
 | AWESOME_API_URL      | Base URL for the Digital Awesome Board API that the slack bot will be using                              | http://localhost                | scripts/awesome.team.coffee          |
+| PLOTLY_USERNAME      | Username to use plotly nodejs api to generate chart                                                      | {plotly-username-goes-here}     | routes/index.js                      |
+| PLOTLY_API_KEY       | API key to use plotly nodejs api to generate chart                                                       | {plotly-api-key-goes-here}      | routes/index.js                      |
 
 ## ReST API
 **The ReST API has been implemented thusly (accessible from root [http://localhost:3000/](http://localhost:3000/):**
